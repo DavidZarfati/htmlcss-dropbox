@@ -71,7 +71,7 @@ padding-top: 30px;
     font-weight: 900;
 }
 .hero-left{
-    width: 40%;
+    width: 30%;
 }
 .hero-left>p{
     font-size: 0.8rem;
@@ -89,7 +89,7 @@ margin-bottom: 10px;
     margin-bottom: 10px;
 }
 .hero-right{
-    width: 60%;
+    width: 70%;
 }
 .hero-left-and-right{
     display: flex;
@@ -99,4 +99,8 @@ margin-bottom: 10px;
     opacity: 0.9;
     margin-top: 20px;
 /* box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.54); */
+}
+/* Abbonamenti */
+.abbonamenti{
+    margin-top: 120px;
 }
