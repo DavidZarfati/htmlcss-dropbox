@@ -225,7 +225,7 @@ div>h2{
 .w-70{
     width: 70%;
     /* Debug */
-    min-height: 300px;
+    /* min-height: 300px; */
 }
 .w-30{
     width: 30%;
@@ -267,3 +267,21 @@ div>h2{
     min-height: 350px;
     background-color: rgb(230, 59, 187);
 }
+h2.mb-0{margin-bottom: 0;}
+
+footer{
+    min-height: 400px;
+background-color: black;
+color: white;}
+
+.col-20{
+    background-color: #b4d0e6;
+    border: 1px solid red;
+    width: 20%;
+}
+.lista-5-footer{
+    height: 250px;
+    padding: 40px;
+}
+.tendina{margin-left: 40px;}
+footer{margin-top: 80px;}
