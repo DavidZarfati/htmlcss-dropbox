@@ -203,8 +203,9 @@ div>h2{
 .team{
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 100px;
     /* debug */
-    background-color: red;
+    background-color: rgb(33, 196, 47);
     min-height: 200px;
 }
 .right-sezioni-team{
@@ -215,4 +216,54 @@ div>h2{
 }
 .sezioni-team{
     display: flex;
+}
+.w-50{
+    width: 50%;
+    /* Debug */
+    min-height: 300px;
+}
+.w-70{
+    width: 70%;
+    /* Debug */
+    min-height: 300px;
+}
+.w-30{
+    width: 30%;
+    /* Debug */
+    min-height: 300px;
+}
+.w-40{
+    width: 40%;
+    /* Debug */
+    min-height: 300px;
+}
+.w-60{
+    width: 60%;
+    /* Debug */
+    min-height: 300px;
+}
+
+.bg-yellow{background-color: yellow;}
+.bg-red{background-color: red;}
+.trova-un-partner{
+    margin-bottom: 50px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    
+}
+
+.col-30-short {
+    width: 30%;
+    border: lightgray 1px solid;
+    margin-bottom: 20px;
+    /* debug */
+    min-height: 350px;
+    background-color: rgb(230, 59, 187);
 }
