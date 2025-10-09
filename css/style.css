@@ -41,6 +41,12 @@ a {
 .contenitore-80p {
     width: 80%;
     margin: 0 auto;
+max-width: 1000px;
+}
+.contenitore-70p {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 900px;
 }
 
 .padding-5px {
@@ -283,5 +289,7 @@ color: white;}
     height: 250px;
     padding: 40px;
 }
-.tendina{margin-left: 40px;}
 footer{margin-top: 80px;}
+.text-align-left{text-align: left;}
+#dropbus{text-align: left;}
+.tendina{margin-left: 17%;}
