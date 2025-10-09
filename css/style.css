@@ -296,15 +296,18 @@ div>h2 {
     justify-content: space-between;
 }
 
-.card {}
+.card {
+    display: flex;
+    flex-direction: column;
+}
 
 .col-30-short {
     width: 30%;
-    border: lightgray 1px solid;
-    margin-bottom: 20px;
+    /* border: lightgray 1px solid; */
+    margin-bottom: 80px;
     /* debug */
-    min-height: 350px;
-    background-color: rgb(230, 59, 187);
+    /* min-height: 350px;
+    background-color: rgb(230, 59, 187); */
 }
 
 h2.mb-0 {
@@ -318,8 +321,8 @@ footer {
 }
 
 .col-20 {
-    background-color: #b4d0e6;
-    border: 1px solid red;
+    /* background-color: #b4d0e6; */
+    /* border: 1px solid red; */
     width: 20%;
 }
 
@@ -338,10 +341,12 @@ footer {
 
 #dropbus {
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .tendina {
-    margin-left: 17%;
+    margin-left: 15%;
+    margin-top: 40px;
 }
 
 h3 {
@@ -372,6 +377,7 @@ ul {
 li {
     padding-bottom: 10px;
     font-size: 0.8rem;
+    display: flex;
 }
 
 i {
@@ -395,6 +401,12 @@ i {
     width: 25%;
     border: 1px solid lightgray;
     margin: 25px;
+}
+.bordino-sm {
+    width: 10%;
+    border: 1px solid lightgray;
+    margin-left: 15%;
+    margin-top: 35px;
 }
 
 .salienti {
@@ -435,13 +447,29 @@ i {
 
 #partner-description {
     font-size: 0.9rem;
-margin-left: 15px;
-margin-bottom: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
-.btn-partner{
+
+.btn-partner {
     background-color: white;
     padding: 10px;
     border: 1px solid black;
     color: black;
     margin-left: 30px;
+}
+
+.rem-sm {
+    font-size: 0.8rem;
+}
+.low-weight{font-weight: 300;}
+.lista-footer{
+  margin-bottom: 10px;
+  font-weight: 200;
+  font-size: 0.7rem;
+}
+.h2-footer{
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 1rem;
 }
