@@ -116,9 +116,10 @@ li.btn-generico>a {
     color: white;
 }
 
-.logo-header-sinistro{
+.logo-header-sinistro {
     height: 50px;
 }
+
 .logo {
     height: 15px;
     width: 70px;
@@ -539,33 +540,47 @@ i {
 .rem-2 {
     font-size: 2rem
 }
-.domande{
+
+.domande {
     margin-top: 100px;
     font-size: 2rem;
     margin-bottom: 50px;
 }
-.bordino-grigio{
+
+.bordino-grigio {
     border-bottom: 1px solid lightgray;
-width: 70%;
+    width: 70%;
 }
-.my-20{
+
+.my-20 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.fa-chevron-down{
+
+.fa-chevron-down {
     margin-left: 150px;
 }
-ul.lista-header-sinistro>li:hover{
-    border-bottom: 1px solid black;
-}
-ul.lista-header-destro>li:hover{
+
+ul.lista-header-sinistro>li:hover {
     border-bottom: 1px solid black;
 }
 
-header{
+ul.lista-header-destro>li:hover {
+    border-bottom: 1px solid black;
+}
+
+header {
     position: fixed;
     z-index: 999;
     width: 100%;
     background-color: white;
     /* margin-bottom: 100px; */
+}
+
+.none {
+    color: white;
+}
+
+.none:hover {
+   color: black;
 }
