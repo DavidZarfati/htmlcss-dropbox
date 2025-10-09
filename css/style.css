@@ -116,9 +116,9 @@ li.btn-generico>a {
     color: white;
 }
 
-/* .logo-header-sinistro{
-    height: 10%;
-} */
+.logo-header-sinistro{
+    height: 50px;
+}
 .logo {
     height: 15px;
     width: 70px;
@@ -136,12 +136,13 @@ li.btn-generico>a {
     background-color: #b4d0e6;
     width: 100%;
     height: 100%;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .hero>h1 {
     font-size: 2.5rem;
     font-weight: 900;
+    /* padding-top: 100px; */
 }
 
 .hero-left {
@@ -553,4 +554,18 @@ width: 70%;
 }
 .fa-chevron-down{
     margin-left: 150px;
+}
+ul.lista-header-sinistro>li:hover{
+    border-bottom: 1px solid black;
+}
+ul.lista-header-destro>li:hover{
+    border-bottom: 1px solid black;
+}
+
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+    /* margin-bottom: 100px; */
 }
