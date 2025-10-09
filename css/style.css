@@ -402,6 +402,7 @@ i {
     border: 1px solid lightgray;
     margin: 25px;
 }
+
 .bordino-sm {
     width: 10%;
     border: 1px solid lightgray;
@@ -462,14 +463,94 @@ i {
 .rem-sm {
     font-size: 0.8rem;
 }
-.low-weight{font-weight: 300;}
-.lista-footer{
-  margin-bottom: 10px;
-  font-weight: 200;
-  font-size: 0.7rem;
+
+.low-weight {
+    font-weight: 300;
 }
-.h2-footer{
-  margin-bottom: 20px;
-  font-weight: 900;
-  font-size: 1rem;
+
+.lista-footer {
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+.h2-footer {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.terzo {
+    width: calc(100% / 3);
+
+    /* debug */
+    min-height: 300px;
+    background-color: yellow;
+}
+
+.quarto {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+
+    /* debug */
+    border: 1px solid red;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.banner-dropbus {
+    height: 200px;
+
+    background-color: lightblue;
+}
+
+.wrap-lb {
+    width: 100%;
+    background-color: lightblue;
+    padding: 70px;
+}
+
+.btn-banner {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    height: 40px;
+}
+
+.p-40 {
+    width: 40%;
+}
+
+.p-30 {
+    width: 30%;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.rem-2 {
+    font-size: 2rem
+}
+.domande{
+    margin-top: 100px;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+.bordino-grigio{
+    border-bottom: 1px solid lightgray;
+width: 70%;
+}
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fa-chevron-down{
+    margin-left: 150px;
 }
