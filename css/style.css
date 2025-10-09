@@ -30,7 +30,8 @@ a {
 .justify-space-between {
     justify-content: space-between;
 }
-.flex-direction-column{
+
+.flex-direction-column {
     flex-direction: column;
 }
 
@@ -41,8 +42,9 @@ a {
 .contenitore-80p {
     width: 80%;
     margin: 0 auto;
-max-width: 1000px;
+    max-width: 1000px;
 }
+
 .contenitore-70p {
     width: 70%;
     margin: 0 auto;
@@ -61,8 +63,17 @@ max-width: 1000px;
     padding: 15px;
 }
 
+.padding-20px {
+    padding: 20px;
+}
+
 .bb-black-1px {
     border-bottom: 1px solid black;
+    /* width: 100%; */
+}
+
+.bb-lg-1px {
+    border-bottom: 1px solid lightgray;
     /* width: 100%; */
 }
 
@@ -165,6 +176,7 @@ li.btn-generico>a {
 
 .jumbo-img {
     height: 120%;
+    width: 120%;
     opacity: 0.9;
     margin-top: 20px;
     /* box-shadow: 10px 10px 15px 1px rgba(0,0,0,0.54); */
@@ -186,9 +198,12 @@ li.btn-generico>a {
 .col-30 {
     width: 30%;
     border: lightgray 1px solid;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px; */
     /* debug */
-    min-height: 600px;
-    background-color: aqua;
+    /* min-height: 600px;
+    background-color: aqua; */
 }
 
 .col-header {
@@ -197,61 +212,80 @@ li.btn-generico>a {
     width: 100%;
     height: 5%;
 }
-div>h2{
+
+div>h2 {
     padding: 5px;
     font-size: 0.8rem;
     text-align: center;
 }
-.link{
+
+.link {
     text-decoration: underline;
     color: #0060fe;
 }
-.team{
+
+.team {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 100px;
+    border: lightgray 1px solid;
     /* debug */
-    background-color: rgb(33, 196, 47);
-    min-height: 200px;
+    /* background-color: rgb(33, 196, 47);
+    min-height: 200px; */
 }
-.right-sezioni-team{
+
+.right-sezioni-team {
     width: 30%;
 }
-.left-sezioni-team{
+
+.left-sezioni-team {
     width: 70%;
+    margin-bottom: 20px;
 }
-.sezioni-team{
+
+.sezioni-team {
     display: flex;
 }
-.w-50{
+
+.w-50 {
     width: 50%;
     /* Debug */
     min-height: 300px;
 }
-.w-70{
+
+.w-70 {
     width: 70%;
     /* Debug */
     /* min-height: 300px; */
 }
-.w-30{
+
+.w-30 {
     width: 30%;
     /* Debug */
     min-height: 300px;
 }
-.w-40{
+
+.w-40 {
     width: 40%;
     /* Debug */
     min-height: 300px;
 }
-.w-60{
+
+.w-60 {
     width: 60%;
     /* Debug */
     min-height: 300px;
 }
 
-.bg-yellow{background-color: yellow;}
-.bg-red{background-color: red;}
-.trova-un-partner{
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.trova-un-partner {
     margin-bottom: 50px;
 }
 
@@ -261,9 +295,8 @@ div>h2{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.card {
-    
-}
+
+.card {}
 
 .col-30-short {
     width: 30%;
@@ -273,23 +306,142 @@ div>h2{
     min-height: 350px;
     background-color: rgb(230, 59, 187);
 }
-h2.mb-0{margin-bottom: 0;}
 
-footer{
+h2.mb-0 {
+    margin-bottom: 0;
+}
+
+footer {
     min-height: 400px;
-background-color: black;
-color: white;}
+    background-color: black;
+    color: white;
+}
 
-.col-20{
+.col-20 {
     background-color: #b4d0e6;
     border: 1px solid red;
     width: 20%;
 }
-.lista-5-footer{
+
+.lista-5-footer {
     height: 250px;
     padding: 40px;
 }
-footer{margin-top: 80px;}
-.text-align-left{text-align: left;}
-#dropbus{text-align: left;}
-.tendina{margin-left: 17%;}
+
+footer {
+    margin-top: 80px;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+#dropbus {
+    text-align: left;
+}
+
+.tendina {
+    margin-left: 17%;
+}
+
+h3 {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+h4 {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+h5 {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: rgb(177, 177, 177);
+    padding-bottom: 25px;
+}
+
+ul {
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+li {
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.btn-prova {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.oppure {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.bordino {
+    width: 25%;
+    border: 1px solid lightgray;
+    margin: 25px;
+}
+
+.salienti {
+    padding: 10px;
+}
+
+.fa-check {
+    color: #0060fe;
+}
+
+.h-20 {
+    height: 20px;
+}
+
+.h-25 {
+    height: 25px;
+}
+
+.enterprise-h4 {
+    padding-bottom: 40px;
+}
+
+.enterprise-p {
+    margin-left: 20px;
+}
+
+.btn-team {
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+#partner-title {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#partner-description {
+    font-size: 0.9rem;
+margin-left: 15px;
+margin-bottom: 15px;
+}
+.btn-partner{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    margin-left: 30px;
+}
