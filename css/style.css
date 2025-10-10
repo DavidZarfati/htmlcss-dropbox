@@ -483,11 +483,12 @@ i {
 }
 
 .terzo {
+    height: 300px;
     width: calc(100% / 3);
 
     /* debug */
-    min-height: 300px;
-    background-color: yellow;
+    /* min-height: 300px;
+    background-color: yellow; */
 }
 
 .quarto {
@@ -583,4 +584,19 @@ header {
 
 .none:hover {
    color: black;
+}
+.ads{
+    height: 100%;
+    margin-left: 10%;
+    width: 80%;
+       /* fill: #ff0000; */
+}
+.florida{
+    height: 20%;
+    margin-top: 40%;
+  
+}
+.mio-rettangolo{
+    background-image: url(../bonus/designit.svg);
+ fill: lightgreen;
 }
